@@ -27,10 +27,6 @@ test("labels every Claude opening, preserves other fields and unregisters on cle
       cwd: "/project",
       reason,
       purpose: "interactive",
-      title: "Existing agent",
-      labels: {},
-      tools: [],
-      mcpServers: {},
       env: { UNRELATED: "keep", CLAUDE_CODE_ENTRYPOINT: "sdk-cli" },
     };
     assert.deepEqual(handler({ request }), {

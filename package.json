@@ -1,6 +1,6 @@
 {
   "name": "claude-code-entrypoint-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Optional Claude Code entrypoint environment plugin for Paseo.",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "format:check": "oxfmt --check ."
   },
   "devDependencies": {
-    "@getpaseo/plugin": "0.14.0-beta.2",
+    "@getpaseo/plugin": "0.8.0-beta.1",
     "@types/node": "22.20.5",
     "oxfmt": "0.45.0",
     "oxlint": "1.61.0",
