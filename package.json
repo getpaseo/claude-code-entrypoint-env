@@ -1,0 +1,26 @@
+{
+  "name": "claude-code-entrypoint-env",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional Claude Code entrypoint environment plugin for Paseo.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getpaseo/claude-code-entrypoint-env.git"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test server/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint index.server.ts server",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check ."
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.14.0-beta.2",
+    "@types/node": "22.20.5",
+    "oxfmt": "0.45.0",
+    "oxlint": "1.61.0",
+    "typescript": "5.9.3"
+  }
+}
