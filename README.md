@@ -1,6 +1,6 @@
 # Claude Code entrypoint environment
 
-When installed and enabled, this plugin adds `CLAUDE_CODE_ENTRYPOINT=Paseo` to Claude agents each time a session opens. Other providers are unchanged.
+When installed and enabled, this plugin adds `CLAUDE_CODE_ENTRYPOINT=Paseo` to Claude agents each time a session opens, including agents on custom providers that extend `claude`. Other providers are unchanged.
 
 This is an optional community workaround for [Claude Code issue #97074](https://github.com/anthropics/claude-code/issues/97074).
 
